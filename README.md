@@ -1,6 +1,9 @@
 
 # ecoTransit
 
+Explore the ecoTransit package and Shiny app on the [pkgdown site]
+( https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-adub0006/).
+
 <!-- badges: start -->
 ![License](https://img.shields.io/github/license/ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006)
 <!-- badges: end -->
