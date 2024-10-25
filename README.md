@@ -14,7 +14,7 @@ The goal of **ecoTransit** is to provide an interactive platform for users to ex
 
 
 ```r
-pak::pak("https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006.git")
+devtools::install_github("ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006")
 
 ```
 **Example**
@@ -24,7 +24,7 @@ Here’s a basic example showing how to launch the Shiny app:
 ```r
 library(ecoTransit)
 # Launch the Shiny app
-launch_app()
+run_app()
 
 ```
 
