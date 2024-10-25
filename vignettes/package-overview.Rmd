@@ -1,0 +1,19 @@
+---
+title: "Overview of ecoTransit"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview of ecoTransit}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The `ecoTransit` package helps users explore and compare the environmental impact of different transportation modes, focusing on carbon footprints.
+
+# How to Install
+
+You can install the package from GitHub:
+
+```r
+remotes::install_github("adub0006/ecoTransit")

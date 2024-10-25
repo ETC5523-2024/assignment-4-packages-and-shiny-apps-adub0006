@@ -2,12 +2,17 @@ Package: ecoTransit
 Title: A Package to Explore Environmentally Friendly Transport Options
 Version: 0.1.0
 Authors@R: 
-    person("Avni", "Dubey", , "your_email@domain.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package helps users explore and compare the environmental impact of different transportation modes, specifically focusing on carbon footprints. It includes an interactive Shiny app that allows users to visualize the carbon emissions of various transport options based on the distance traveled.
+    person("Avni", "Dubey", email = "adub0006@student.monash.edu", role = c("aut", "cre"))
+Description: This package helps users explore and compare the environmental impact of different transportation modes, focusing on carbon footprints.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
-
+Imports: 
+    shiny,
+    ggplot2,
+    dplyr,
+    DT,
+    plotly
+VignetteBuilder: knitr
