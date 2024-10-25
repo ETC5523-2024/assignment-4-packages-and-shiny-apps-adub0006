@@ -9,8 +9,10 @@ run_app <- function() {
     stop("Could not find shiny_app directory. Try re-installing `ecoTransit`.", call. = FALSE)
   }
 
-  # Load the data from the package (assuming data is saved as cleaned_data.rda in the data folder)
-  data("cleaned_data", package = "ecoTransit")
+  # Ensure the cleaned data is accessible
+  if (!exists("cleaned_data")) {
+    data("cleaned_data", package = "ecoTransit", envir = environment())
+  }
 
   # Launch the Shiny app from the app directory
   shiny::runApp(app_dir, display.mode = "normal")
