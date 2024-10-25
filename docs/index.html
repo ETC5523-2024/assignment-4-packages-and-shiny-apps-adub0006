@@ -70,6 +70,7 @@
 <div class="section level1">
 <div class="page-header"><h1 id="ecotransit">ecoTransit<a class="anchor" aria-label="anchor" href="#ecotransit"></a>
 </h1></div>
+<p>Explore the ecoTransit package and Shiny app on the [pkgdown site] ( <a href="https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-adub0006/" class="external-link uri">https://etc5523-2024.github.io/assignment-4-packages-and-shiny-apps-adub0006/</a>).</p>
 <!-- badges: start -->
 <p><img src="https://img.shields.io/github/license/ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006" alt="License"><!-- badges: end --></p>
 <p>The goal of <strong>ecoTransit</strong> is to provide an interactive platform for users to explore and compare the carbon footprints of different transportation modes. The package includes a Shiny app that allows users to visualize the emissions for various modes of transport (e.g., car, bus, train, bicycle) based on the distance traveled. This helps individuals make more environmentally friendly transportation choices.</p>
@@ -77,13 +78,13 @@
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">pak</span><span class="fu">::</span><span class="fu">pak</span><span class="op">(</span><span class="st">"https://github.com/ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006.git"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"ETC5523-2024/assignment-4-packages-and-shiny-apps-adub0006"</span><span class="op">)</span></span></code></pre></div>
 <p><strong>Example</strong></p>
 <p>Here’s a basic example showing how to launch the Shiny app:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">ecoTransit</span><span class="op">)</span></span>
 <span><span class="co"># Launch the Shiny app</span></span>
-<span><span class="fu">launch_app</span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu"><a href="reference/run_app.html">run_app</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p><strong>Features</strong></p>
 <ul>
 <li>Explore carbon emissions of different transportation modes.</li>
